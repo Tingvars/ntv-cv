@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+.header-title {
+  font-size: 30px;
+  font-weight: bold;
+  color:#61dafb;
+  background-color: black;
+}
+
+.header-image {
+  max-height: 140px;
+}
+
+.cv-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cv-box {
+border-style: solid;
+border-width: 1px;
+border-color: rgb(173, 244, 255);
+padding: 10px;
+margin-top: 5px;
+margin-bottom: 10px;
+min-width: 650px;
+max-width: 650px;
+}
+
+.cv-box-title {
+  font-weight: bolder;
+color:#61dafb;
+}
+
+.cv-box-subtitle {
+  color:#b3e9f8;
+}
+
+.cv-box-text {
+color:azure;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: black;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
