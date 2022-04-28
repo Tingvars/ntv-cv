@@ -48,6 +48,10 @@ color:#61dafb;
 color:azure;
 }
 
+.eveningdiv {
+  width: 150px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
